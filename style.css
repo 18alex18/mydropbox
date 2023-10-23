@@ -1,6 +1,21 @@
 /* style.css */
 
 body {
+    margin-top: 0;
+    margin-left: 0;
+    background-color: white;
+    color: black;
+}
+
+header {
+    display: block;
+    height: 7vh;
     background-color: black;
-    color: white;
+}
+
+img :nth-child() {vertical-align: bottom;}
+img {
+    padding: 8px;
+    height: 25px;
+    background-color: #0061fe;
 }

@@ -1,8 +1,7 @@
 /* style.css */
 
 body {
-    margin-top: 0;
-    margin-left: 0;
+    margin: 0;
     background-color: white;
     color: black;
 }
@@ -18,4 +17,8 @@ img {
     padding: 8px;
     height: 25px;
     background-color: #0061fe;
+}
+
+footer {
+    padding: 45px;
 }

@@ -1,22 +1,74 @@
 /* style.css */
-
-body {
-    margin: 0;
+header {
     background-color: white;
+    color: black;
+    display: flex;
+    left: 0;
+    right: 0;
+    top: 0;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo h1 {
+    font-size: 24px;
+}
+
+nav ul {
+    list-style: none;
+}
+
+.meio {
+    color: black;
+    display: flex;
+    margin-left: 30px;
+}
+
+
+nav ul li {
+    display: inline;
+    margin-right: 20px;
+}
+
+nav ul li a {
+    text-decoration: none;
     color: black;
 }
 
-header {
-    display: block;
-    height: 7vh;
-    background-color: black;
+body {
+    margin: 0;
+    background-color: #1e1919;
+    color: white;
 }
 
-img :nth-child() {vertical-align: bottom;}
+.sub {
+    font-size: 18px;
+    text-align: center;
+    margin-left: 29%;
+    margin-right: 29%;
+}
+h3 {
+    margin-left: 20px;
+}
+
+img :nth-child() {
+    vertical-align: bottom;
+    margin-left: 0;
+}
+
 img {
     padding: 8px;
     height: 25px;
     background-color: #0061fe;
+}
+
+.titulo {
+    font-size: 40px;
+    font-family: "Sharp Grotesk DB Cyr Book 20 Regular";
+    text-align: center;
+    margin-top: 55px;
+    margin-left: 25%;
+    margin-right: 25%;
 }
 
 footer {
